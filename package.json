@@ -1,6 +1,6 @@
 {
   "name": "@willhayes/want-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -15,8 +15,7 @@
   },
   "scripts": {
     "dev": "tsc --watch",
-    "release": "tsc",
-    "lint": "eslint --ext [ts,js] --fix ./src"
+    "release": "tsc"
   },
   "files": [
     "lib",

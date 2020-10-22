@@ -15,7 +15,7 @@ export function compileJs(filePath: string): Promise<undefined> {
           const jsFilePath = replaceExt(filePath, '.js');
 
           removeSync(filePath);
-          outputFileSync(jsFilePath, result.code);
+          outputFileSync(jsFilePath, result.code?.replace(".vue",".js"));
           resolve();
         }
       })
