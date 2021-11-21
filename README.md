@@ -73,3 +73,6 @@ yarn add @vant/cli --dev
 ## 关于桌面端组件
 
 目前 Vant Cli 仅支持移动端组件的预览，桌面端组件暂不支持预览（欢迎 PR）。
+
+## TODO
+定制项目引导
